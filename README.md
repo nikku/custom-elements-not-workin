@@ -14,6 +14,9 @@ Especially some quirks will never be reliably shimmed (such as the `instanceof` 
 
 ### Tests
 
+Checkout [the test suite](https://github.com/nikku/custom-elements-not-workin/blob/master/test/spec/app/web-components-spec.js#L64) for the cases covered.
+
+
 ```
 npm test
 
