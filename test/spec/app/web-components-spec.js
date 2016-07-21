@@ -72,6 +72,7 @@ function elementTests(createElement) {
     });
 
 
+    // FAILS WITH SHIM
     it('instanceof Element1', function() {
       expect(element1).to.be.an.instanceof(Element1);
     });
@@ -94,6 +95,7 @@ function elementTests(createElement) {
 
     describe('callbacks', function() {
 
+      // FAILS WITH SHIM
       it('createdCallback', function() {
         expect(element1._created).to.be.true;
       });
@@ -108,6 +110,7 @@ function elementTests(createElement) {
       });
 
 
+      // FAILS WITH SHIM
       it('attachedCallback (sync)', function() {
 
         // when
@@ -132,6 +135,7 @@ function elementTests(createElement) {
       });
 
 
+      // FAILS WITH SHIM
       it('detachedCallback (sync)', function() {
 
         // given
@@ -167,6 +171,7 @@ function elementTests(createElement) {
       });
 
 
+      // FAILS WITH SHIM
       it('attributeChangedCallback (sync)', function() {
 
         // when
@@ -179,6 +184,7 @@ function elementTests(createElement) {
       });
 
 
+      // FAILS WITH SHIM
       it('attributeChangedCallback (async)', function(done) {
 
         // when
