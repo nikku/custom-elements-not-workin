@@ -1,6 +1,6 @@
-# custom-elements (not working)
+# Custom Elements (not working)
 
-An example that verifies that custom elements are actually __not working reliably cross-browser__.
+An example that verifies that [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements) (part of [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)) are actually __not working reliably cross-browser__.
 
 Especially some quirks will never be reliably shimmed (such as the `instanceof` behavior).
 
@@ -29,7 +29,6 @@ npm run test:watch
 
 * __36 test cases fail in total on PhantomJS and Firefox__
 * No test cases fail on Chrome
-
 
 ```
 PhantomJS 2.1.1 (...): Executed 40 of 40 (18 FAILED) ...
